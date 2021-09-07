@@ -1,0 +1,3 @@
+function geraFrequenciaNota(semitons) {
+    if()
+}
