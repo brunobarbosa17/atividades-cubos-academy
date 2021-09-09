@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url('assets/background.png') no-repeat;
+
+}
+
+.container {
+    align-items: center;
+    margin: 375px 431px 383px 430px;
+    width: 739px;
+    height: 442px;
+    background: white;
+    border-radius: 10px;
+}
+
+.container h2 {
+    padding-top: 50px;
+    margin-left: 50px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.container p {
+    font-family: 'Mulish';
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 132px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.submit {
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}  
+
+.submit input {
+    width: 510px;
+    padding: 15px;
+    border: 1px solid #E5E5E5;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.submit input:focus {
+    border: 1px solid black;
+}
+
+.submit a:hover {
+    background: rgba(150, 119, 239, 0.8);
+    box-shadow: 0px 11px 20px rgba(150, 119, 239, 0.3);
+    border-radius: 5px;
+    cursor: default;
+}
+
+.submit a {
+    background-color: #9677EF;
+    border-radius: 5px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    padding: 12px 35px;
+    margin-right: 50px;
+    text-decoration: none;
+}
+
+.detalhes {
+    background-color: #F8F9FD;
+    width: 631px;
+    height: 150px;
+    margin-left: 50px;
+    margin-right: 58px;
+}
+
+.detalhes h2 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    color: #494949;  
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.detalhes p {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #494949;
+    margin-left: 20px;
+}
+
+.detalhes a {
+    color: #9677EF;
+}

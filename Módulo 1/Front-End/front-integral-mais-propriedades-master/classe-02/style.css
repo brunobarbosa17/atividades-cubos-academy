@@ -1,0 +1,91 @@
+body {
+    background-color: #F2F5FE;
+    padding: 100px;
+}
+
+.container1 {
+    width: 505px;
+    height: 510px;
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+.quote {
+    margin-top: 84px;
+    margin-right: 376px;
+    margin-left: 85px;
+}
+
+.text1 {
+    font-family: 'Merriweather', serif;
+    font-size: 22px;
+    line-height: 36px;
+    margin-left: 85px;
+    margin-right: 97px;
+    width: 323px;
+    height: 254px;
+}
+
+.autor {
+    margin-left: 85px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/**/
+* {
+    text-decoration: none;
+}
+
+.container2 {
+    width: 431px;
+    height: 391px;
+    background-color: #101439;
+    border-radius: 10px;
+    color: white;
+}
+
+.first {
+    padding-top: 40px;
+    padding-left: 60px;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 2px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.second {
+    margin-top: 10px;
+    margin-left: 60px;
+    font-size: 22px;
+    line-height: 32px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: 'Merriweather', serif;
+}
+
+.third {
+    margin-top: 13px;
+    margin-left: 60px;
+    margin-right: 65px;
+    font-size: 18px;
+    line-height: 28px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.inscrever {
+    background-color: white;
+    width: 311px;
+    height: 77px;
+    color: black;
+    margin-top: 55px;
+    margin-left: 60px;
+    border-radius: 10px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 28px;
+}

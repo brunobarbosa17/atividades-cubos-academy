@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: #CED5EC;
+    font-family: 'Open Sans';
+    font-style: normal;
+
+}
+
+.container {
+    background-color: white;
+    width: 693px;
+    height: 794px;
+    align-items: center;
+    box-shadow: 0px 34px 44px rgba(160, 181, 255, 0.28);
+    border-radius: 10px;
+    margin: auto;
+}
+
+.conteudo {
+
+}
+
+#title {
+    text-align: center;
+    padding-top: 70px;
+    margin-right: 219px;
+    margin-left: 219px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    color: #000000;
+}
+
+.detalhes {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    margin-left: 52px;
+}
+
+.detalhes h2 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.detalhes p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #000000;
+}
+
+input {
+    border-radius: 5px;
+    margin-bottom: 5px;
+    background: #FFFFFF;
+    border: 1px solid #CED5EC;
+    color: black;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;    
+}
+
+.card {
+    margin-left: 52px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+}
+
+#card1 {
+    border-radius: 6px;
+    width: 591px;
+    padding: 26px;
+    margin-left: 52px;
+}
+
+
+
+.double {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 52px;
+    font-weight: bold;
+}
+
+.double label {
+    margin-right: -5px;
+    margin-top: 25px;
+}
+
+.double  input {
+    align-items: center;
+    padding-left: 25px;
+    margin-top: 50px;
+    width: 282px;
+    height: 74px;
+    margin-left: -120px;
+    margin-right: 50px;
+}
+
+
+#final {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    margin: 50px 80px 27px 80px;
+}
+
+.botao {
+    margin-top: 27px;
+    width: 592px;
+    height: 115px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    padding: 45px 25px;
+    background-color: #5F82FF;
+    border-radius: 5px;
+    margin-left: 51px;
+    
+}
+
+.botao a {
+    color: #FFFFFF;
+}
+
+.botao:hover {
+    background: #093DF3;
+    box-shadow: 0px 7px 24px rgba(9, 61, 243, 0.3);
+    border-radius: 5px;
+    cursor: pointer;
+}

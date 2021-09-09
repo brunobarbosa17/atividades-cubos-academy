@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+
+html {
+    font-size: 62.5%;
+}
+
+
+body {
+    background: #F2F2F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 16.3rem 40rem;
+}
+
+.tudo {
+    width: 63.5rem;
+    height: 47.5rem;
+    box-shadow: 0px 15px 30px rgba(0, 81, 171, 0.148847);
+    border-radius: 0.8rem;
+}
+
+.cima {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    width: 100%;
+
+}
+/**/
+
+
+button {
+    color: #FFFFFF;
+    background-color: #C0DF33;
+    width: 23.7rem;
+    height: 4.8rem;
+    border-radius: .5rem;
+}
+
+.baixo {
+    display: flex;
+    height: 50%;
+}
+
+
+.baixo-esq {
+    background-color: #2AB3B0;
+    height: 100%;
+    width: 50%;
+}
+
+.baixo-dir {
+    height: 100%;
+    width: 50%;
+    background: #4ABFBC;
+}
+
+/*Fontes*/
+
+.cima h1 {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.3px;
+    color: #2AB3B1;
+    margin-top: 4.0rem;
+    margin-left: 4.0rem;
+}
+
+.cima h2 {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.8rem;
+    line-height: 21px;
+    letter-spacing: -0.225px;
+    color: #C0DF33;
+    margin-top: 2.4rem;
+    margin-left: 4.0rem;
+}
+
+.cima p {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    letter-spacing: -0.2px;
+    margin-top: 1.1rem;
+    color: #9AA7BE;
+    margin-left: 4.0rem;
+}
+
+.baixo .baixo-esq h2 {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+    letter-spacing: -0.225px;
+    color: #FFFFFF;
+    margin-left: 4.0rem;
+}
+
+.baixo .baixo-esq h2 {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 37px;
+    letter-spacing: -0.4px;
+    color: #FFFFFF;
+    margin-left: 4.0rem;
+    margin-top: 14px;
+}
+
+#preco {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 37px;
+    letter-spacing: -0.4px;
+
+    color: #FFFFFF;
+}
+
+.baixo .baixo-esq p {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.2px;
+    color: #FFFFFF;
+    margin-left: 4.0rem;
+    margin-top: .4rem;
+}
+
+.month {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.2px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    margin-left: 4.0rem;
+    margin-top: 2.6rem;
+}
+
+/*esquerda*/
+
+.baixo-dir h2 {
+    font-family: Karla;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: -0.225px;
+    color: #FFFFFF;
+    margin-top: 4.0rem;
+    margin-left: 4.0rem;
+}
+
+.baixo-dir ul {
+    font-family: Karla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.175px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.75;
+    margin-left: 4.0rem;
+    margin-top: 1.8rem;
+}

@@ -1,0 +1,197 @@
+* { 
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+
+body {
+    background-color: #E5E5E5;
+    display: flex;
+    flex-direction: row;
+}
+
+.friends {
+    width: 666px;
+    height: 368px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 74px -20px rgba(130, 148, 173, 0.44);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+.topo-friends {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 33px;
+}
+
+.profile {
+    width: 66px;
+    border-radius: 50%;
+    margin-top: 25px;
+}
+
+.profiles {
+    display: flex;
+}
+
+.topo-friends h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+}
+
+.topo-friends a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    color: #000000;
+}
+
+.josh, .christer, .lise, .katrine {
+    border: 1px solid #E5E5E5;
+    border-radius: 10px;
+    width: 135px;
+    height: 195px;
+    margin-right: 9px;
+    text-align: center;
+}
+
+.josh, .christer, .lise, .katrine , img {
+    margin-bottom: 10px;
+}
+
+.josh, .christer, .lise, .katrine , h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 17px;
+}
+
+.josh {
+    margin-left: 50px;
+}
+
+.katrine {
+    margin-right: 49px;
+}
+
+.soma {
+    background-color: black;
+    border-radius: 50%;
+    margin-bottom: 6px;
+}
+
+.soma {
+    padding: 10px;
+}
+
+/*baixo*/
+
+.contacts {
+    width: 451px;
+    height: 653px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 74px -20px rgba(130, 148, 173, 0.44);
+    border-radius: 15px;
+
+}
+
+.topo-contacts {
+    margin-left: 50px;
+    margin-top: 59px;
+    margin-bottom: 62px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.topo-contacts p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    color: #040405;
+    border-radius: 100%;
+    border: 2px solid black;
+    padding: 6px;
+    margin-left: 16px;
+}
+
+.topo-contacts h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+    margin-bottom: 1px;
+}
+
+.img-contacts {
+    width: 66px;
+    border-radius: 50%;
+}
+
+.lise-contacts,.emily,.jake,.cheryl {
+    display: flex;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+
+.info {
+    margin-left: 20px;
+    margin-right: 131px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 131px;
+    justify-content: center;
+}
+
+
+.info h2{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    margin-bottom: -1px;
+    text-align: start;
+}
+
+.info p {
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.view {
+    background: #000000;
+    border-radius: 60px;
+    padding: 18px 30px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin-left: 48px;
+}

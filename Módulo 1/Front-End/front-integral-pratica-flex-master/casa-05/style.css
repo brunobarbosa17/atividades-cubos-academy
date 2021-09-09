@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: #E5E5E5;
+}
+
+.container1 {
+    width: 583px;
+    height: 314px;
+    background: #FFFFFF;
+    box-shadow: 0px 16px 45px -15px rgba(2, 5, 132, 0.25);
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.foto-seguir {
+    display: flex;    
+}
+
+.info {
+    margin-right: 100px;
+}
+
+.info > h2 {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 28px;
+    color: #202142;
+    margin-bottom: 10px;
+}
+
+.info > p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #202142;
+}
+
+.jenny-foto {
+    border-radius: 50%;
+    width: 84px;
+    border: 0.5px solid #EFEFFF;
+    margin-right: 37px;
+    margin-bottom: 38px;
+    box-shadow: 0px 8px 22.5px -7.5px rgba(2, 5, 132, 0.2);
+}
+
+.row img {
+    width: 164px;
+}
+
+.row {
+    width: 523px;
+}
+
+.conteudo {
+    margin-left: 38px;
+    margin-top: 38px;
+}
+
+.user {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: 140px;
+    height: 50px;
+    padding: 10px 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background: #202142;
+    border-radius: 10px;
+
+}
+
+.user p {
+    
+}
+
+.user img {
+    margin-left: 20px;
+    margin-right: 10px;
+    width: 24px;
+}
+
+/**/
+
+
+
+
+.conteudo2 {
+    width: 1300px;
+    height: 222px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: 0px 16px 45px -15px rgba(2, 5, 132, 0.25);
+    border-radius: 10px;
+}
+
+.conteudo2 img {
+    width: 72px;
+    height: 72px;
+    margin-left: 30px;
+}
+
+.row2 {
+    display: flex;
+    width: 668px;
+}
+
+.row2 img {
+    margin-right: 20px;
+    width: 216px;
+    height: 162px;
+}
+
+.seguindo {
+    background: #FFFFFF;
+    border: 1px solid #A4A4CB;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #202142;
+    display: flex;
+    align-items: center;
+    width: 171px;
+    height: 54px;
+    padding-right: 30px;
+    margin-top: 20px;
+}
+
+.seguindo img {
+    margin-right: 10px;
+    width: 24px;
+}

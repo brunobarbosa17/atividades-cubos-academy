@@ -1,0 +1,102 @@
+body {
+    background-color: #FF8E4F;
+    
+}
+
+.dentro-topo {
+    max-width: 645px;
+    margin: 0 auto;
+    background: rgba(9, 24, 63, 0.5);
+    box-shadow: 0px 14px 25px -10px rgba(9, 24, 63, 0.17);
+    border-radius: 10px;
+    color: white;
+    
+}
+
+.dentro-topo h1 {
+
+}
+
+.dentro-topo p {
+
+}
+
+.dentro-topo a {
+
+}
+
+.comprar {
+    border-radius: 50px;
+    text-decoration: none;
+    padding: 10px 30px;
+    font-weight: 600;
+}
+
+.dentro-topo .comprar2 {
+    background-color: #FF8E4F;
+    color: white;
+    border-radius: 50px;
+    text-decoration: none;
+    padding: 10px 30px;
+}
+
+.dentro-topo .conteudo-card {
+    padding: 50px 60px 40px 60px;
+}
+
+.produto {
+    max-width: 500px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+
+.produto h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 26px;
+    margin-bottom: 26px;
+}
+
+.produto p {
+    margin-bottom: 38px;
+}
+
+.produto img {
+    margin-top: 40px;
+}
+
+h1 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 10px;
+}
+
+p { 
+    font-size: 18px;
+    line-break: 28px;
+    margin-bottom: 25px;
+}
+
+a {
+
+
+}
+
+p, a {
+    font-family: 'Mulish';
+}
+
+
+
+.conteudo .comprar {
+    background-color: white;
+    border: 1px solid #09183F;
+    color: #09183F;
+}
+
+.container {
+    background: #f4f8fd;
+}

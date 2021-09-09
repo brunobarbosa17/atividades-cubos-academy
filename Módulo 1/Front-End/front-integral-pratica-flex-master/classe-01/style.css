@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: #F2F2F2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 250px;
+
+}
+
+.container {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.container > div {
+    height: 100%;
+    width: 307px;
+    border-radius: 0px 8px 8px 0px;
+    padding-left: 41.5px;
+    padding-right: 47.5px;
+}
+
+img {
+    margin-top: 48px;
+}
+
+p {
+    margin-top: 25px;
+    margin-right: 72.5px;
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.75;
+    
+}
+
+h2 {
+    margin-top: 32px;
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 48px;
+    color: #F2F2F2;
+}
+
+.botao {
+    margin-top: 116px;
+    margin-bottom: 48px;
+}
+
+.botao a {
+    color: #E28625;
+    border-radius: 25px;
+    background-color: #F2F2F2;
+    padding: 12px 31.5px;
+}
+
+.suvs .botao a {
+    color: #006971;
+}
+
+.luxury .botao a {
+    color: #004140;
+}
+
+.sedans {
+    background-color: #E28625;
+}
+
+.suvs {
+    background-color: #006971;
+
+}
+
+.luxury {
+    background-color: #004140;
+}

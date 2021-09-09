@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 15px;
+    background-color: lightgrey;
+}
+
+body {
+    background-color: gray;
+}
+
+section {
+    color: white;
+    padding: 45px;
+}
+
+p {
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+section img {
+    margin-top: 50px
+}

@@ -1,0 +1,22 @@
+* {
+    background-color: burlywood;
+    padding-left: 15px;
+}
+
+.img {
+    border-radius: 10px;
+}
+
+
+ul {
+    margin-bottom: 80px;
+
+}
+
+section,h1 {
+    margin-top: 50px;
+}
+
+footer {
+    margin-top: 35px;
+}

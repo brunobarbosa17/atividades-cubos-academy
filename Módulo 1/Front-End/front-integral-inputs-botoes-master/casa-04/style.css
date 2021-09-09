@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    cursor: default;
+}
+
+body {
+    background-color: #1F1C44;
+}
+
+
+.container {
+    width: 517px;
+    margin: auto;
+    margin-top: 217px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.container h2 {
+    font-family: 'Neuton';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 35px;
+    text-align: center;
+    color: #000000;
+    padding-top: 60px;
+    margin-bottom: 54px;
+}
+
+.google {
+    display: flex;
+    align-items: center;
+    background: #5B86E6;
+    border-radius: 5px;
+    width: 337px;
+    height: 69px;
+    margin-bottom: 55px;
+}
+
+.google:hover {
+    box-shadow: 0px 4px 13px rgba(19, 69, 178, 0.3);
+    border-radius: 5px;
+}
+
+.container .google p {
+    margin-right: 5px;
+    margin-left: 72px;
+    font-family: 'Neuton';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.container h3 {
+    font-family: 'Neuton';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #949495;
+    margin-bottom: 39px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs  label {
+    font-family: 'Neuton';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    text-transform: capitalize;
+    color: #000000;
+    text-align: start;
+    margin-bottom: 4px;
+}
+
+.inputs input {
+    width: 337px;
+    height: 69px;
+    border: 1px solid #D9DCED;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 25px;
+    margin-bottom: 25px;
+}
+
+.started {
+    background-color: #E65B7C;
+    border-radius: 5px;
+    padding: 23px 123px;
+    margin-top: 25px;
+}
+
+.started:hover {
+    box-shadow: 0px 4px 15px rgba(204, 28, 69, 0.3);
+    border-radius: 5px;
+}
+
+.started a {
+    font-family: 'Neuton';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 28px;
+    color: #FFFFFF;    
+}
+
+.container p {
+    font-family: 'Neuton';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 55px;
+    margin-top: 55px;
+}
+
+.container p a {
+    color: #5B86E6;
+    
+}
