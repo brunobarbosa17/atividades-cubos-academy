@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.nav-esquerda {
+    background-color: #313131;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    left: 0;
+    height: 100vmin;
+}
+
+.icons-topo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.nav-esquerda > .icons-topo > figure {
+    cursor: pointer;
+    width: 24px;
+}
+
+#config {
+    cursor: pointer;
+    width: 24px;
+    margin-bottom: 50px;
+}
+
+.nav-esquerda.expandido {
+    width: 199px;
+}
+
+.principal {
+    display: flex;
+}
+
+h1 {
+    margin-bottom: 52px;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+}
+
+.inicio {
+    margin-left: 106px;
+    margin-top: 152px;
+}
+
+.inicio img {
+    margin-bottom: 18px;
+    cursor: pointer;
+}
+
+.imgs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.legenda {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.legenda > figcaption {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.legenda > p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    color: #5C5C5C;
+}
+
+/* Modal */
+
+.modal {
+    display: none;
+}
+
+.modal.open {
+    position: fixed;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+}
+
+.row img:nth-child(1) {
+    width: 80px;
+}
+.row img:nth-child(2) {
+    width: 900px;
+}
+.row img:nth-child(3) {
+    width: 80px;
+}
+
+#close-modal {
+    position: relative;
+    width: 100px;
+    left: 60%;
+    bottom: 40%;
+}

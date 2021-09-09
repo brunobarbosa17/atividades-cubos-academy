@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-size: 32px;
+}
+
+form {
+    text-align: center;
+}
+
+.resposta {
+    display: none;
+    flex-direction: column;
+}

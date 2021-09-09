@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.pesquisa {
+    display: flex;
+    min-height: 50vh;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+input {
+    width: 250px;
+    border-radius: 8px;
+}
+
+.paises {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #c3c3c3;
+}
+
+img {
+    width: 150px;
+}
