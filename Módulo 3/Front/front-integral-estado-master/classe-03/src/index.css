@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: Mulish;
+}
+
+.App {
+    background-color: #456392;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 302px;
+    height: 428px;
+    border-radius: 12px;
+}
+
+img {
+    border-radius: 12px 12px 0px 0px;
+    width: 100%;
+}
+
+h2 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.container > p {
+    margin-bottom: 59px;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    width: 219px;
+    height: 40px;
+}
+
+.buy {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-size: 36px;
+}
+
+.increase, .decrease {
+    cursor: pointer;
+    background-color: #459275;
+    width: 38px;
+    height: 46px;
+    border-radius: 12px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 45px;
+    color: #EFF5FF;
+    display: flex;
+
+    justify-content: center;
+    text-align: center;
+}
